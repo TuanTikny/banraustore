@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/bg_boderdot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:text="@string/frag_cart_title"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ff9320"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/line2_lv" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="@string/frag_cart_title1"
+            android:textSize="15dp"
+            android:textColor="#ff0707"
+            android:layout_marginBottom="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line_sp"/>
+    </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/bg_cholistgiohang"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.baoyz.swipemenulistview.SwipeMenuListView
+                        android:id="@+id/giohang_lv_sanpham"
+                        android:layout_width="match_parent"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:layout_height="200dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/frag_cart_spdat"
+                        android:textColor="#9f9f9f"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1.2"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/giohang_tv_slsanpham"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="43dp"
+                        android:gravity="center_vertical"
+                        android:text="0"
+                        android:textColor="#39b300"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="7dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/frag_cart_sp"
+                        android:textColor="#4b4b4b"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/frag_cart_tongtrongluong"
+                        android:textColor="#9f9f9f"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/giohang_tv_tongsoluong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="30dp"
+                        android:gravity="center_vertical"
+                        android:text="0"
+                        android:textColor="#39b300"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:textColor="#5e5e5e"
+                        android:gravity="center_vertical"
+                        android:text="   /Kg"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/line2_lv" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/bg_boderdotline"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/frag_cart_tongtien"
+                        android:textColor="#9f9f9f"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="0dp"
+                    android:background="@drawable/bg_boderdot"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/giohang_tv_tonggiasp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:text="0.0 "
+                        android:textColor="#f96616"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:textColor="#f96616"
+                        android:gravity="center_vertical"
+                        android:text="đ"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp">
+
+                <ru.katso.livebutton.LiveButton
+                    android:id="@+id/giohang_btn_muathem"
+                    android:layout_marginTop="10dp"
+                    android:text="  Mua Tiếp"
+                    android:textSize="25sp"
+                    android:padding="7dp"
+                    android:textStyle="bold"
+                    android:textColor="#fdfdfd"
+                    app:backgroundColor="#ff9328"
+                    app:shadowColor="#FFCACACA"
+                    app:normalHeight="5dp"
+                    app:corners="35dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="15dp"/>
+
+                <ru.katso.livebutton.LiveButton
+                    android:id="@+id/giohang_btn_huy"
+                    android:layout_marginTop="10dp"
+                    android:text="   Hủy"
+                    android:textSize="25sp"
+                    android:padding="7dp"
+                    android:textStyle="bold"
+                    android:textColor="#fdfdfd"
+                    app:backgroundColor="#ff9328"
+                    app:shadowColor="#FFCACACA"
+                    app:normalHeight="5dp"
+                    app:corners="35dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp">
+
+                <ru.katso.livebutton.LiveButton
+                    android:id="@+id/giohang_btn_dathang"
+                    android:layout_marginTop="0dp"
+                    android:text="  Đặt Hàng"
+                    android:textSize="25sp"
+                    android:padding="7dp"
+                    android:textStyle="bold"
+                    android:textColor="#fdfdfd"
+                    app:backgroundColor="#f7530d"
+                    app:shadowColor="#FFCACACA"
+                    app:normalHeight="5dp"
+                    app:corners="35dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+
+
+</LinearLayout>

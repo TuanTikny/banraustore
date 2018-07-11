@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_thongtinuser"
+            android:icon="@drawable/ic_user"
+            android:title="@string/mcode_menu_inforaccount" />
+        <item
+            android:id="@+id/nav_sanpham"
+            android:icon="@drawable/ic_sanpham"
+            android:title="@string/mcode_menu_production" />
+        <item
+            android:id="@+id/nav_Spyeuthich"
+            android:icon="@drawable/ic_yeuthich"
+            android:title="@string/mcode_menu_favoritesp" />
+        <item
+            android:id="@+id/nav_lsdonhang"
+            android:icon="@drawable/ic_donhang"
+            android:title="@string/mcode_menu_myorder" />
+        <item
+            android:id="@+id/nav_lstygia"
+            android:icon="@drawable/icon_motakhac"
+            android:title="@string/mcode_menu_tygia" />
+    </group>
+
+    <item android:title="@string/mcode_menu_inforapp">
+        <menu>
+            <item
+                android:id="@+id/nav_thongtinstore"
+                android:icon="@drawable/ic_aboutstore"
+                android:title="@string/mcode_menu_inforus" />
+            <item
+                android:id="@+id/nav_dangxuat"
+                android:icon="@drawable/ic_hotro"
+                android:title="@string/mcode_menu_logout" />
+        </menu>
+    </item>
+
+</menu>

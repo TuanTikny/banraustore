@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">1466321580125362</string>
+    <string name="fb_login_protocol_scheme">fb1466321580125362</string>
+    <string name="google_map_api_key">AIzaSyC5VT_gCRVBFPag1IrNqyXY6_l331Agdls</string>
+
+    <string name="app_name">Thực Phẩm Xanh</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="chose_laguage">
+        <item>Tiếng Việt</item>
+        <item>Tiếng Anh</item>
+    </string-array>
+    <string name="languge_name">Tiếng Việt</string>
+    <string name="choose_lag">Chọn Ngôn Ngữ</string>
+
+    <string name="noidung">
+        Thực phẩm bẩn hiện nay đang trở thành nỗi lo thường trực của nhiều bà nội trợ gây tâm lý hoang mang tới người tiêu dùng.
+        Nắm bắt được tâm lý cùng với nhu cầu tăng cao của người tiêu dùng, nhiều cửa hàng kinh doanh “Thực phẩm Xanh” đã ra đời và ngày càng phát triển mạnh mẽ.
+    </string>
+    <string name="action_settings">Cài Đặt</string>
+
+    <!-- Strings for login and register-->
+    <string name="tieptuc">Tiếp Tục</string>
+    <string name="frag_dn_login">Đăng Nhập</string>
+    <string name="frag_dn_logingoogle">Tiếp tục với Google</string>
+    <string name="frag_dn_login_quenmatkhau">Quên Mật Khẩu ?</string>
+    <string name="frag_dn_dankytk">Đăng Ký Tài Khoản Mới</string>
+
+    <string name="fcode_dn_logingoogle_ok">Đăng nhập bằng Google thành công</string>
+    <string name="fcode_dn_logingoogle_error">Đăng Nhập Google gặp sự cố</string>
+    <string name="fcode_dn_loginface_waiting">Đang Kết Nối ...</string>
+    <string name="fcode_dn_loginface_error">Đăng Nhập Facebook gặp sự cố!</string>
+    <string name="fcode_dn_xuli">Đang Xử Lí ...</string>
+    <string name="fcode_dn_loginface_ok">Đăng nhập bằng facebook thành công</string>
+    <string name="fcode_dn_login_ok">Đăng Nhập Thành Công</string>
+    <string name="fcode_dn_login_error">Tài Khoản Không Chính Xác</string>
+
+    <string name="check_dn_taikhoan">Chưa nhập tài khoản !</string>
+    <string name="check_dn_matkhau">Chưa nhập mật khẩu !</string>
+    <string name="check_dk_email">Email Không Hợp lệ !</string>
+    <string name="check_dk_noteemail">(*) Bạn cần phải nhập đúng Email của bạn!</string>
+    <string name="check_dk_matkhau">Mật khẩu mới không hợp lệ ! (*)</string>
+    <string name="check_dk_notematkhau">(*) Mật khẩu phải nhiều hơn 6 ký tự. Đồng thời phải có tối thiểu 1 ký tự chữ in Hoa, 1 ký tự chũ in thường,1 ký tự số và hông có ký tự đặc biệt</string>
+    <string name="check_dk_matkhaulan2">Mật khẩu xác thực không giống !</string>
+
+
+    <string name="frag_dk_tieude">đăng ký</string>
+    <string name="frag_dk_emaildk">Email Đăng Ký</string>
+    <string name="frag_dk_matkhau">Nhập Mật Khẩu</string>
+    <string name="frag_dk_nhaclaimk">Nhắc Lại Mật khẩu</string>
+    <string name="frag_dk_nutdk">Đăng ký</string>
+    <string name="frag_dk_nuthuy">Hủy</string>
+
+    <string name="fcode_dk_register">Đăng Ký Thành Công</string>
+    <string name="fcode_dk_register_error">Đăng Ký Thất Bại, Hãy thử Với tên email khác!</string>
+    
+    <!--String for account-->
+    
+    <string name="frag_account_title">Thông Tin Người Dùng</string>
+    <string name="frag_account_changename">Cập nhật Họ Tên</string>
+    <string name="frag_account_phone">Số điện thoại</string>
+    <string name="frag_account_address">Địa chỉ của bạn</string>
+    <string name="frag_account_other">Mô tả khác nếu có...</string>
+    <string name="frag_account_btnchange">Nhấp Để Mở Chỉnh Sửa</string>
+    <string name="frag_account_menu_chosepic">Chọn Hình</string>
+    <string name="frag_account_menu_takepic">Chụp Hình</string>
+
+    <string name="fcode_account_saveinfor">Lưu Thông Tin Thành Công</string>
+    <string name="fcode_account_btnchange">Nhấp Để Mở Chỉnh Sửa</string>
+    <string name="fcode_account_btnsave">Nhấp Để Lưu</string>
+    <string name="fcode_account_pleaseretry">Vui Lòng Thử Lại !</string>
+
+    <!--String for production-->
+
+
+    <string name="fcode_snack_content">Vui Lòng Cập Nhật Đầy Đủ Thông Tin Cá Nhân Để Sử Dùng Giỏ Hàng</string>
+    <string name="fcode_snack_updateinfor">CẬP NHẬT</string>
+    <string name="fcode_snack_content1">Bạn Chưa Chọn Mua Sản Phẩm Nào.</string>
+    <string name="fcode_void_talknamesp">Đọc Tên Sản Phẩm Cần Tìm ...</string>
+
+    <string name="item_choosebuy">Chọn Mua</string>
+    <string name="frag_dialogchosebuy_price">Giá :</string>
+    <string name="frag_dialogchosebuy_count">Số Lượng Mua :</string>
+    <string name="fcode_dialogchosebuy_btnaddsp">+ Giỏ</string>
+    <string name="fcode_dialogchosebuy_cancel">Hủy</string>
+    <string name="fcode_dialogchosebuy_money">Thành Tiền :</string>
+    <string name="fcode_dialogchosebuy_pleaseinputcount">Vui Lòng Nhập Số Lượng</string>
+    <string name="fcode_dialohchosebuy_100production">Giỏ hàng Chứa tối Đa 100 Sản Phẩm</string>
+    <string name="fcode_dialogchosebuy_addok">Thêm Giỏ Hàng Thành Công</string>
+    <string name="fcode_dialogdelete_favoritesp_title">BẠN CÓ MUỐN BỎ THÍCH SẢN PHẨM NÀY</string>
+    <string name="fcode_dialogdelete_favoritesp_content">Bạn có thực sự muốn xóa sản phẩm này khỏi danh sách yêu thích !?</string>
+    <string name="fcode_dialogdelete_favoritesp_btndelete">Xóa</string>
+    <string name="fcode_dialogdelete_favoritesp_btnno">Không</string>
+    
+    <string name="frag_dialoginforsp_infor">Thông Tin Chung</string>
+    <string name="frag_dialoginforsp_sort">Loại SP :</string>
+    <string name="frag_dialoginforsp_other">Mô tả :</string>
+    <string name="frag_dialoginforsp_count">Số Lượng :</string>
+    <string name="frag_dialoginforsp_unit">Đơn vị tính: </string>
+    
+    <string name="mcode_mainsp_title">Cửa Hàng Thực Phẩm Xanh</string>
+    <string name="mcode_mainsp_logout">THOÁT ỨNG DỤNG</string>
+    <string name="mcode_mainsp_logout_content">Chú Ý : Thoát ứng dụng sẽ xóa các sản phẩm bạn đã chọn mua !</string>
+    <string name="mcode_button_logout_btnexit">Thoát</string>
+    
+    <string name="mcode_menu_inforaccount">Thông Tin Tài Khoản</string>
+    <string name="mcode_menu_production">Sản Phẩm</string>
+    <string name="mcode_menu_favoritesp">Sản Phẩm Yêu Thích</string>
+    <string name="mcode_menu_myorder">Đơn Hàng Của Tôi</string>
+    <string name="mcode_menu_tygia">Tỷ Giá Tiền Tệ</string>
+    <string name="mcode_menu_inforapp">Thông Tin Về Ứng Dụng</string>
+    <string name="mcode_menu_inforus">Liên Hệ</string>
+    <string name="mcode_menu_logout">Đăng Xuất</string>
+
+    <string name="frag_nav_title">Cửa Hàng Thực Phẩm Xanh</string>
+    <string name="frag_nav_email">Liên hệ : tuanbapk00814@gmail.com</string>
+    <string name="frag_favoritesp_title">Sản Phẩm Yêu Thích</string>
+
+
+    <!--String for order-->
+    <string name="frag_donhang_title">Đơn Hàng Của Bạn</string>
+    <string name="frag_donhang_choxacnhan">Mục Chờ Xác Nhận</string>
+    <string name="frag_donhang_dangchuyen">Mục Đang Chuyển</string>
+    <string name="frag_donhang_danhan">Mục Đã Nhận</string>
+    <string name="frag_donhang_dahuy">Mục Đơn Hàng Hủy</string>
+
+    <string name="frag_dialogorder_title">ĐƠN HÀNG NGÀY</string>
+    <string name="frag_dialogorder_sospdat">Số Sản Phẩm Đặt :</string>
+    <string name="frag_dialogorder_khoiluong">Tổng Trọng Lượng :</string>
+    <string name="frag_dialogorder_thanhtien">Tổng Tiền :</string>
+    <string name="frag_dialogorder_tinhtrang">Trạng Thái :</string>
+
+    <string name="fcode_dialogorder_sp">Sản Phẩm</string>
+    <string name="fcode_dialogorder_choxacnhan">Chờ Xác Nhận</string>
+    <string name="fcode_dialogorder_danghchuyen">Đã Chuyển Đi</string>
+    <string name="fcode_dialogorder_danhan">Đã Nhận</string>
+    <string name="fcode_dialogorder_dahuy">Đã Hủy</string>
+
+    <string name="frag_donhang_item_date">Đặt Ngày :</string>
+    <string name="frag_donhang_item_summoney">Tổng Tiền :</string>
+    <string name="frag_donhang_item_khoiluong">Khối Lượng :</string>
+
+    <!--String for tygia-->
+    <string name="frag_tygia_title">Tỉ Giá Quy Đổi Tiền Tệ</string>
+    <string name="frag_item_giamua">Giá Mua ~ VNĐ:</string>
+    <string name="frag_item_giaban">Giá Bán ~ VNĐ:</string>
+    <string name="frag_tygia_content">Bảng tỷ giá hỗ trợ quy đổi từ 1 đơn vị A sang VNĐ. Dữ Liệu được Cập nhật tự động từ Đông Á Bank</string>
+
+    <!--String for aboutus-->
+    <string name="frag_aboutus_title">Thông Tin Về Chúng Tôi</string>
+    <string name="frag_aboutus_holine">Liên Hệ :</string>
+    <string name="frag_aboutus_phone">01699209872</string>
+    <string name="frag_aboutus_email">Email :</string>
+    <string name="frag_aboutus_emailaddress">Tuanbapk00814@fpt.edu.vn</string>
+    <string name="frag_aboutus_inforstore">Giới Thiệu Về Cửa Hàng</string>
+    <string name="frag_aboutus_Titlemap">Chỉ Dẫn Về Cửa Hàng Của Chúng Tôi</string>
+    <string name="frag_aboutus_map3d">BẢN ĐỒ 3D</string>
+    <string name="frag_aboutus_mapvetinh">vệ tinh</string>
+    <string name="frag_aboutus_mapnormal">Bản Đồ</string>
+    <string name="frag_aboutus_mapstress">Đường Đi</string>
+
+    <string name="fcode_aboutus_newlocation">vị trí mới</string>
+    <string name="fcode_aboutus_youarehere">Bạn đang ở đây</string>
+    <string name="fcode_aboutus_nopemissionlocation">không có quyền truy cập vị trí</string>
+    <string name="fcode_ahoutus_pleasewating">Vui Lòng Chờ...</string>
+    <string name="fcode_loading_location">Đang Xác Định Vị Trí..!</string>
+
+      <!--String for cart-->
+    <string name="frag_cart_title">Giỏ Hàng</string>
+    <string name="frag_cart_title1">Các Sản Phẩm Đã Chọn Mua</string>
+    <string name="frag_cart_spdat">Sản Phẩm Đã Đặt :</string>
+    <string name="frag_cart_tongtrongluong">Tổng Trọng Lượng :</string>
+    <string name="frag_cart_sp">Sản Phẩm</string>
+    <string name="frag_cart_tongtien">Tổng Tiền:</string>
+
+    <string name="fcode_cart_btnmuatiep">Mua Tiếp</string>
+    <string name="fcode_cart_btnhuy">Hủy</string>
+    <string name="fcode_cart_btndathang">Đặt Hàng</string>
+
+    <string name="fcode_cart_snackcontent">Giỏ Hàng Chưa Có Sản Phẩm Nào</string>
+    <string name="fcode_cart_delcart_title">XÁC NHẬN XÓA</string>
+    <string name="fcode_cart_delcart_content">Bạn có thực sự muốn xóa giỏ hàng này !?</string>
+    <string name="fcode_cart_delcart">Đã Xóa Giỏ Hàng Trên</string>
+
+    <string name="fcode_cart_dialogsuccess_title">Bạn Đã Đặt Đơn Hàng Sau</string>
+    <string name="fcode_cart_dialogsuccess_content">Nội dung đơn hàng</string>
+    <string name="fcode_cart_kiemtra">Kiểm tra đơn hàng tại Mục đơn hàng trong Menu!</string>
+    <string name="fcode_cart_xacnhan">Xác Nhận</string>
+    <string name="fcode_cart_dathangthanhcong">Đơn hàng đã được đặt thành công !</string>
+
+    <string name="fcode_cart_delsp_title">XÓA SẢN PHẨM KHỎI GIỎ HÀNG</string>
+    <string name="fcode_cart_delsp_content">Bạn có thực sự muốn xóa sản phẩm này khỏi giỏ hàng !?</string>
+
+    
+    <string name="code_db_resulterror">Không Có dữ liệu trả về</string>
+    <!--string for firebase order-->
+    <string name="code_dbdonhang_order">Đơn Hàng :</string>
+    <string name="code_dbdonhang_daxacnhan">Đã Được Xác Nhận</string>
+    <string name="code_dbdonhang_daxacnhan1">Đơn Hàng Đã Được Xác Nhận</string>
+    <string name="code_dbdonhang_daxacnhan3">Đã Được Xác Nhận Và Đang Được Chuyển Đi</string>
+    
+    <string name="code_dbdonhang_dahuy">Đã Bị Hủy</string>
+    <string name="code_dbdonhang_dahuy2">Đơn Hàng Đã Bị Hủy</string>
+    <string name="code_dbyeuthich_dathemsp">Đã Thêm Yêu Thích</string>
+
+</resources>

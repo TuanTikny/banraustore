@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="vertical"
+            android:layout_height="250dp"
+            android:minHeight="150sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="@string/frag_aboutus_title"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#74c101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginTop="3dp"
+                android:layout_width="280dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="2dp"
+                android:background="@drawable/line2_lv"/>
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:layout_width="200dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="2dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/line2_lv"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/frag_aboutus_holine"
+                    android:textColor="#00a413"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:text="@string/frag_aboutus_phone"
+                    android:layout_width="0dp"
+                    android:textColor="#e71401"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:layout_weight="2.5"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/frag_aboutus_email"
+                    android:textSize="17dp"
+                    android:layout_width="0dp"
+                    android:textColor="#00a413"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:text="@string/frag_aboutus_emailaddress"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.5"
+                    android:textColor="#e71401"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/bg_boderdot"
+                android:scrollbars="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/frag_aboutus_inforstore"
+                    android:textColor="#00a413"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="17dp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="30dp" />
+
+                <ImageView
+                android:layout_marginTop="3dp"
+                android:layout_width="280dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="2dp"
+                    android:layout_marginBottom="5dp"
+                android:background="@drawable/line2_lv"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/logo_thucphamxanh"/>
+                    <TextView
+                        android:background="@drawable/bg_boderdotline"
+                        android:padding="5dp"
+                        android:text="@string/noidung"
+                        android:textAlignment="inherit"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:layout_width="match_parent"
+                        android:textColor="#c76a00"
+                        android:textStyle="italic"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/activity_main"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/bg_boderdot"
+            android:orientation="vertical">
+            <TextView
+                android:background="@drawable/bg_boderdot"
+                android:gravity="center"
+                android:textColor="#00a413"
+                android:textStyle="bold"
+                android:text="@string/frag_aboutus_Titlemap"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:elevation="7dp"
+                android:orientation="vertical">
+
+                <!--  dùng cho chuyển đổi các kiểu Maps  -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="7dp">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/normal_map"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="@string/frag_aboutus_map3d"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="13dp" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/hybrid_map"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="vệ tinh"
+                        android:visibility="gone"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="13dp" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/satellite_map"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="@string/frag_aboutus_mapvetinh"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="13dp" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/terrain_map"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="@string/frag_aboutus_mapnormal"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="13dp" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/none_map"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="@string/frag_aboutus_mapstress"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="13dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/colorAccent" />
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/current_location_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="2sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <fragment
+                android:layout_marginTop="15dp"
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="350dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="@string/frag_dialogorder_title"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#f94949"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/infordh_ngaydat"
+        android:text="20/11/2017"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/line2_lv" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/frag_dialogorder_sospdat"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/infordh_sosanpham"
+            android:text="30 Sản Phẩm"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="#f94949"
+            android:gravity="center_vertical"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/frag_dialogorder_khoiluong"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/infordh_trongluong"
+            android:text="10Kg"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="#f94949"
+            android:gravity="center_vertical"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/frag_dialogorder_thanhtien"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/infordh_tongtien"
+            android:text="50000VNĐ"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="#f94949"
+            android:gravity="center_vertical"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/frag_dialogorder_tinhtrang"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/infordh_trangthai"
+            android:text="Đã Nhận"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="#f94949"
+            android:gravity="center_vertical"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</LinearLayout>
+
+
+</LinearLayout>

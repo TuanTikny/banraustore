@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fb="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/bg_dangnhap"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/xam_50phantram"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" />
+            <LinearLayout
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/logo_thucphamxanh"
+                    android:layout_gravity="center"
+                    android:paddingTop="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="#9fffffff"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="horizontal">
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/taikhoanLayout"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            app:errorEnabled="true">
+                            <EditText
+                                android:id="@+id/edit_taikhoan"
+                                android:inputType="textEmailAddress"
+                                android:drawableLeft="@drawable/icon_mail"
+                                android:background="@drawable/trang_80phantram"
+                                android:textColor="#b70303"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp" />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="-15dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:orientation="horizontal">
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/matkhauLayout"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            app:errorEnabled="true">
+                            <EditText
+                                android:id="@+id/edit_matkhau"
+                                android:inputType="textPassword"
+                                android:textColor="#b70303"
+                                android:drawableLeft="@drawable/icon_pass"
+                                android:background="@drawable/trang_80phantram"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp" />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <Button
+                            android:id="@+id/btn_dangnhap"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/frag_dn_login"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/bg_button"
+                            android:textColor="#ffffff" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="50dp">
+
+
+                <com.facebook.login.widget.LoginButton
+                    android:id="@+id/btn_loginfacebook"
+                    android:layout_width="185dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    fb:login_text=""
+                    fb:logout_text=""
+                    android:background="@drawable/bg_button"
+                    android:scaleType="centerInside"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:text="@string/frag_dn_logingoogle"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:textAlignment="textStart"
+                    android:textColor="#ffffff"
+                    android:id="@+id/btn_loginGoogle"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_button"
+                    android:layout_width="185dp"
+                    android:paddingTop="10dp"
+                    android:drawableLeft="@drawable/google_icon"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_height="38dp" />
+
+                <TextView
+                    android:id="@+id/txtV_doimatkhau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/frag_dn_login_quenmatkhau"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#ffffff"
+                    android:textColorLink="@color/colorAccent" />
+                <Button
+                    android:id="@+id/btn_dangky"
+                    android:layout_width="185dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:scaleType="centerInside"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/frag_dn_dankytk"
+                    android:textAllCaps="false"
+                    android:textSize="13dp"
+                    android:background="@drawable/bg_trongxuot"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

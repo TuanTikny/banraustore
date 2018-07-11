@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">1466321580125362</string>
+    <string name="fb_login_protocol_scheme">fb1466321580125362</string>
+    <string name="google_map_api_key">AIzaSyC5VT_gCRVBFPag1IrNqyXY6_l331Agdls</string>
+
+
+    <string name="app_name">Green Vegetables</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="chose_laguage">
+        <item>Vietnamese</item>
+        <item>English</item>
+    </string-array>
+    <string name="languge_name">English</string>
+    <string name="choose_lag">Choose Language</string>
+
+    <string name="noidung">Contaminated food is becoming a constant concern among many housewives, causing psychological panic. Consumers are caught up with the rising demand of consumers, many of the "real" stores. Green Product "has been born and growing strongly.</string>
+    <string name="action_settings">Setting</string>
+
+    <!-- Strings for login and register-->
+    <string name="tieptuc">Next</string>
+    <string name="frag_dn_login">Login</string>
+    <string name="frag_dn_logingoogle">Conect with Google</string>
+    <string name="frag_dn_login_quenmatkhau">Forgot password?</string>
+    <string name="frag_dn_dankytk">New account</string>
+
+    <string name="fcode_dn_logingoogle_ok">Login with Google success</string>
+    <string name="fcode_dn_logingoogle_error">Login with Google error</string>
+    <string name="fcode_dn_loginface_waiting">Connecting ...</string>
+    <string name="fcode_dn_loginface_error">Login with Facebook error!</string>
+    <string name="fcode_dn_xuli">Loading ...</string>
+    <string name="fcode_dn_loginface_ok">Login with facebook success</string>
+    <string name="fcode_dn_login_ok">Login success</string>
+    <string name="fcode_dn_login_error">Incorrect Account</string>
+
+    <string name="check_dn_taikhoan">Account not added!</string>
+    <string name="check_dn_matkhau">Password not added!</string>
+    <string name="check_dk_email">Email absurd!</string>
+    <string name="check_dk_noteemail">(*) You need to enter the correct your Email!</string>
+    <string name="check_dk_matkhau">New password is invalid ! (*)</string>
+    <string name="check_dk_notematkhau">(*) Password must be more than 6 characters. At the same time, there must be at least 1 Chinese character, 1 lowercase letter, 1 number and no special characters.</string>
+    <string name="check_dk_matkhaulan2">Authentication password incorrect!</string>
+
+
+    <string name="frag_dk_tieude">registration</string>
+    <string name="frag_dk_emaildk">Email registration</string>
+    <string name="frag_dk_matkhau">Enter your password</string>
+    <string name="frag_dk_nhaclaimk">Repeat password</string>
+    <string name="frag_dk_nutdk">registration</string>
+    <string name="frag_dk_nuthuy">Cancel</string>
+
+    <string name="fcode_dk_register">Sign Up Success</string>
+    <string name="fcode_dk_register_error">Sign Up failed, Try With Another Email Name!</string>
+
+    <!--String for account-->
+
+    <string name="frag_account_title">User information</string>
+    <string name="frag_account_changename">Update Name</string>
+    <string name="frag_account_phone">Phone</string>
+    <string name="frag_account_address">Address</string>
+    <string name="frag_account_other">Other...</string>
+    <string name="frag_account_btnchange">Click To Open Edit</string>
+    <string name="frag_account_menu_chosepic">Choose pic</string>
+    <string name="frag_account_menu_takepic">Take pic</string>
+
+    <string name="fcode_account_saveinfor">Save infor success</string>
+    <string name="fcode_account_btnchange">Click To Open Edit</string>
+    <string name="fcode_account_btnsave">Save</string>
+    <string name="fcode_account_pleaseretry">Please try again!</string>
+
+    <!--String for production-->
+
+
+    <string name="fcode_snack_content">Please Update Your Personal Information To Use Your Shopping Cart</string>
+    <string name="fcode_snack_updateinfor">Update</string>
+    <string name="fcode_snack_content1">You have not selected any products yet.</string>
+    <string name="fcode_void_talknamesp">Read Product Name Need to find ...</string>
+
+    <string name="item_choosebuy">Buy Items</string>
+    <string name="frag_dialogchosebuy_price">Price :</string>
+    <string name="frag_dialogchosebuy_count">Quantum :</string>
+    <string name="fcode_dialogchosebuy_btnaddsp">+ Cart</string>
+    <string name="fcode_dialogchosebuy_cancel">Cancel</string>
+    <string name="fcode_dialogchosebuy_money">Amount :</string>
+    <string name="fcode_dialogchosebuy_pleaseinputcount">Please enter the Quantum</string>
+    <string name="fcode_dialohchosebuy_100production">Shopping Cart Contains Max 100 Products</string>
+    <string name="fcode_dialogchosebuy_addok">Add cart success</string>
+    <string name="fcode_dialogdelete_favoritesp_title">YOU WANT TO DISLIKE THIS PRODUCT</string>
+    <string name="fcode_dialogdelete_favoritesp_content">Do you really want to remove this product from your favorites?</string>
+    <string name="fcode_dialogdelete_favoritesp_btndelete">Delete</string>
+    <string name="fcode_dialogdelete_favoritesp_btnno">Cancel</string>
+
+    <string name="frag_dialoginforsp_infor">General Information</string>
+    <string name="frag_dialoginforsp_sort">Sort :</string>
+    <string name="frag_dialoginforsp_other">Other :</string>
+    <string name="frag_dialoginforsp_count">Quantum :</string>
+    <string name="frag_dialoginforsp_unit">Unit : </string>
+
+    <string name="mcode_mainsp_title">Green Production Store</string>
+    <string name="mcode_mainsp_logout">EXIT APP</string>
+    <string name="mcode_mainsp_logout_content">Note : Quitting the app will remove the products you have purchased !</string>
+    <string name="mcode_button_logout_btnexit">Exit</string>
+
+    <string name="mcode_menu_inforaccount">User information</string>
+    <string name="mcode_menu_production">Production</string>
+    <string name="mcode_menu_favoritesp">Favorite</string>
+    <string name="mcode_menu_myorder">My Order</string>
+    <string name="mcode_menu_tygia">Currency exchange rate</string>
+    <string name="mcode_menu_inforapp">App Information</string>
+    <string name="mcode_menu_inforus">About Us</string>
+    <string name="mcode_menu_logout">Log Out</string>
+
+    <string name="frag_nav_title">Green Production Store</string>
+    <string name="frag_nav_email">Email: tuanbapk00814@gmail.com</string>
+    <string name="frag_favoritesp_title">Favorite</string>
+
+
+    <!--String for order-->
+    <string name="frag_donhang_title">My Order</string>
+    <string name="frag_donhang_choxacnhan">Waiting for confirmation</string>
+    <string name="frag_donhang_dangchuyen">Moving Items</string>
+    <string name="frag_donhang_danhan">Received Items</string>
+    <string name="frag_donhang_dahuy">Canceled Items</string>
+
+    <string name="frag_dialogorder_title">Order date</string>
+    <string name="frag_dialogorder_sospdat">Quantum production:</string>
+    <string name="frag_dialogorder_khoiluong">Total weight:</string>
+    <string name="frag_dialogorder_thanhtien">Total Money :</string>
+    <string name="frag_dialogorder_tinhtrang">Status :</string>
+
+    <string name="fcode_dialogorder_sp">Production</string>
+    <string name="fcode_dialogorder_choxacnhan">Waiting</string>
+    <string name="fcode_dialogorder_danghchuyen">Moved</string>
+    <string name="fcode_dialogorder_danhan">Received</string>
+    <string name="fcode_dialogorder_dahuy">Cancelled</string>
+
+    <string name="frag_donhang_item_date">Order date :</string>
+    <string name="frag_donhang_item_summoney">Total Money :</string>
+    <string name="frag_donhang_item_khoiluong">Total weight:</string>
+
+    <!--String for tygia-->
+    <string name="frag_tygia_title">Currency exchange rate</string>
+    <string name="frag_item_giamua">Cost buy ~ VNĐ:</string>
+    <string name="frag_item_giaban">Cost sell ~ VNĐ:</string>
+    <string name="frag_tygia_content">Exchange rate from 1 unit A to VND. Data is automatically updated from DongA Bank</string>
+
+    <!--String for aboutus-->
+    <string name="frag_aboutus_title">Company information</string>
+    <string name="frag_aboutus_holine">Connected :</string>
+    <string name="frag_aboutus_phone">01699209872</string>
+    <string name="frag_aboutus_email">Email :</string>
+    <string name="frag_aboutus_emailaddress">Tuanbapk00814@fpt.edu.vn</string>
+    <string name="frag_aboutus_inforstore">About Us</string>
+    <string name="frag_aboutus_Titlemap">Find my company location</string>
+    <string name="frag_aboutus_map3d">MAP 3D</string>
+    <string name="frag_aboutus_mapvetinh">Satellite</string>
+    <string name="frag_aboutus_mapnormal">MAP</string>
+    <string name="frag_aboutus_mapstress">LINE</string>
+
+    <string name="fcode_aboutus_newlocation">new location</string>
+    <string name="fcode_aboutus_youarehere">you are here</string>
+    <string name="fcode_aboutus_nopemissionlocation">No permission Location</string>
+    <string name="fcode_ahoutus_pleasewating">Please waiting...</string>
+    <string name="fcode_loading_location">Loading location..!</string>
+
+    <!--String for cart-->
+    <string name="frag_cart_title">My Cart</string>
+    <string name="frag_cart_title1">Selected Products</string>
+    <string name="frag_cart_spdat">Product Placed :</string>
+    <string name="frag_cart_tongtrongluong">Total weight:</string>
+    <string name="frag_cart_sp">Production</string>
+    <string name="frag_cart_tongtien">Total Money:</string>
+
+    <string name="fcode_cart_btnmuatiep">Buy Next</string>
+    <string name="fcode_cart_btnhuy">Cancel</string>
+    <string name="fcode_cart_btndathang">Place</string>
+
+    <string name="fcode_cart_snackcontent">Shopping Cart is empty</string>
+    <string name="fcode_cart_delcart_title">DELETE</string>
+    <string name="fcode_cart_delcart_content">Do you really want to delete this shopping cart?</string>
+    <string name="fcode_cart_delcart">Removed Shopping Cart</string>
+
+    <string name="fcode_cart_dialogsuccess_title">You Ordered the Order </string>
+    <string name="fcode_cart_dialogsuccess_content">Order content</string>
+    <string name="fcode_cart_kiemtra">Check your order at Menu Items!</string>
+    <string name="fcode_cart_xacnhan">Confirm</string>
+    <string name="fcode_cart_dathangthanhcong">Order has been successfully placed!</string>
+
+    <string name="fcode_cart_delsp_title">DELETE THIS PRODUCT </string>
+    <string name="fcode_cart_delsp_content">Do you really want to remove this product from your cart?</string>
+
+
+    <string name="code_db_resulterror">No Data returned</string>
+    <!--string for firebase order-->
+    <string name="code_dbdonhang_order">Order :</string>
+    <string name="code_dbdonhang_daxacnhan">Confirmed</string>
+    <string name="code_dbdonhang_daxacnhan1">Order Confirmed</string>
+    <string name="code_dbdonhang_daxacnhan3">Confirmed and Moved</string>
+
+    <string name="code_dbdonhang_dahuy">has been canceled</string>
+    <string name="code_dbdonhang_dahuy2">Order Canceled</string>
+    <string name="code_dbyeuthich_dathemsp">Added Favorite</string>
+
+</resources>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="3dp"
+    android:padding="10dp"
+    android:background="@drawable/bg_boderdot"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:background="@drawable/bg_donhang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="@string/frag_donhang_title"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#74c101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_width="280dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line2_lv"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_width="200dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="2dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/line2_lv"/>
+    </LinearLayout>
+
+    <TabHost
+        android:id="@+id/donhang_tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarThumbHorizontal="@color/colorAccent"
+        android:scrollbarTrackHorizontal="@color/colorAccent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:visibility="gone"
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="80dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tab1_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="3dp"
+                        android:text="@string/frag_donhang_choxacnhan"
+                        android:textColor="#f40000"/>
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="2dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/line_sp"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:padding="5dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/bg_cholistgiohang"
+                        android:layout_height="match_parent">
+                        <ListView
+                            android:id="@+id/lv_donhangcho"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </ListView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="80dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tab2_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="3dp"
+                        android:text="@string/frag_donhang_dangchuyen"
+                        android:textColor="#f40000"/>
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="2dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/line_sp"/>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:padding="5dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/bg_cholistgiohang"
+                        android:layout_height="match_parent">
+                        <ListView
+                            android:id="@+id/lv_donhanggui"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </ListView>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="80dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tab3_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="3dp"
+                        android:text="@string/frag_donhang_danhan"
+                        android:textColor="#f40000"/>
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="2dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/line_sp"/>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:padding="5dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/bg_cholistgiohang"
+                        android:layout_height="match_parent">
+                        <ListView
+                            android:id="@+id/lv_donhangnhan"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </ListView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="80dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tab4_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="3dp"
+                        android:gravity="center_vertical"
+                        android:textAlignment="center"
+                        android:text="@string/frag_donhang_dahuy"
+                        android:textColor="#f40000"/>
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="2dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/line_sp"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:padding="5dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/bg_cholistgiohang"
+                        android:layout_height="match_parent">
+                        <ListView
+                            android:id="@+id/lv_donhanghuy"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </ListView>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout
+                android:id="@+id/tabcustom_layout"
+                android:layout_width="fill_parent"
+                android:padding="10dp"
+                android:background="@drawable/bg_tabhostdonhang"
+                android:layout_alignParentBottom="true"
+                android:layout_height="85dp">
+                <ImageView
+                    android:id="@+id/img_tabcho"
+                    android:src="@drawable/ic_boxguidi"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp" />
+                <ImageView
+                    android:id="@+id/img_tabgui"
+                    android:src="@drawable/ic_hopgiaohang"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp" />
+                <ImageView
+                    android:id="@+id/img_tabdanhan"
+                    android:src="@drawable/ic_hopdagiao"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp" />
+                <ImageView
+                    android:id="@+id/img_tabhuy"
+                    android:src="@drawable/ic_hophuy"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </TabHost>
+</LinearLayout>

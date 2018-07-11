@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="#19a300">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bg_bodertimkiem"
+            android:layout_height="43dp">
+            <android.support.v7.widget.SearchView
+                android:id="@+id/search_timkiemsp"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_marginRight="-18dp"
+                android:layout_height="45dp"
+                android:queryHint="Tìm Kiếm">
+            </android.support.v7.widget.SearchView>
+            <ImageView
+                android:src="@drawable/bg_trangtaivoice"
+                android:id="@+id/voice_timkiemlv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="43dp"
+                android:padding="8dp"
+                android:layout_marginTop="3dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_sapxepsp"
+            android:src="@drawable/ic_girdview"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_sanpham"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+        </ListView>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_giohang"/>
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
